@@ -1,94 +1,66 @@
-Retail Markdown Optimization using Machine Learning
-
+Retail Markdown Optimization
 
 Project Overview:
 
-→ Retail Markdown Optimization is a Machine Learning project that helps retailers determine the optimal discount (markdown) strategy to maximize profit while minimizing unsold inventory.
+→ Retail Markdown Optimization is a machine learning project that helps retailers decide the optimal discount (markdown) percentage for products to maximize sales and revenue.
 
-→ The system predicts demand based on historical sales data and suggests the best markdown percentage to improve sales performance.
+→ This project analyzes historical sales data and predicts the best pricing strategy to improve business performance.
 
+Objective:
+The main objective of this project is to:
 
-Problem Statement:
+→  Analyze retail sales data
 
-Retail stores often struggle with:
+→  Understand the impact of discounts on sales
 
-→ Overstock inventory
+→  Build a predictive model
 
-→ Low sales during off-seasons
+→  Optimize markdown strategies to increase revenue
 
-→ Revenue loss due to improper discount strategies
+Technologies Used:
 
-This project uses ML models to predict demand and optimize markdown pricing decisions.
+→  Python
 
+→  Pandas
 
-Features:
+→  NumPy
 
-→ Sales Data Analysis
+→  Matplotlib
 
-→ Demand Prediction using ML
+→  Scikit-learn
 
-→ Profit Optimization Strategy
+→  Streamlit
 
-→ Inventory Reduction Planning
+Algorithm Used
 
-→ Data Visualization
+→  Linear Regression / Machine Learning Regression Model
 
-→ Machine Learning Approach
+ How to Run the Project:
 
+1. Install required libraries:
+pip install pandas numpy matplotlib scikit-learn streamlit
 
-The project includes:
+2. Run the Streamlit app:
+streamlit run app.py
 
-→ Data Preprocessing
+streamlit link : https://retail-markdown-optimation-akshi.streamlit.app/
 
-→ Feature Engineering
+Github link : https://github.com/akshi281/RETAIL-MARKDOWN-OPTIMIZATION-
 
-→ Train-Test Split
+Project Structure:
 
-→ Model Training
+→  app.py - Main Streamlit application
 
-→ Model Evaluation
+→  dataset.csv - Retail sales dataset
 
+→  README.md - Project documentation
 
-Algorithms Used:
+Output:
 
-→ Linear Regression
+→ The model predicts optimal markdown percentages.
 
-→ Random Forest Regressor
+→ It helps retailers make data-driven pricing decisions.
 
+Author:
 
-Technologies Used
-
-→ Python
-
-→ Pandas
-
-→ NumPy
-
-→ Scikit-learn
-
-→ Matplotlib / Seaborn
-
-→ Jupyter Notebook / Google Colab / vs code
-
-→ Git & GitHub
-
-
-Evaluation Metrics:
-
-→ Mean Absolute Error (MAE)
-
-→ Mean Squared Error (MSE)
-
-→ R² Score
-
-
-Results:
-
-→ The model successfully predicts demand trends and helps in selecting optimal markdown percentages, improving overall profitability.
-
-
-Author
-
-GUDURU AKSHITHA REDDY
-
-Machine Learning Enthusiast 
+Guduru Akshitha Reddy

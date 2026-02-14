@@ -1,12 +1,13 @@
-Retail Markdown Optimization
+# Retail Markdown Optimization
 
-Project Overview:
+### Project Overview:
 
 → Retail Markdown Optimization is a machine learning project that helps retailers decide the optimal discount (markdown) percentage for products to maximize sales and revenue.
 
 → This project analyzes historical sales data and predicts the best pricing strategy to improve business performance.
 
-Objective:
+### Objective:
+
 The main objective of this project is to:
 
 →  Analyze retail sales data
@@ -17,7 +18,7 @@ The main objective of this project is to:
 
 →  Optimize markdown strategies to increase revenue
 
-Technologies Used:
+### Technologies Used:
 
 →  Python
 
@@ -31,23 +32,27 @@ Technologies Used:
 
 →  Streamlit
 
-Algorithm Used
+### Algorithm Used
 
 →  Linear Regression / Machine Learning Regression Model
 
- How to Run the Project:
+ ### How to Run the Project:
 
-1. Install required libraries:
+##### 1. Install required libraries:
+
 pip install pandas numpy matplotlib scikit-learn streamlit
 
-2. Run the Streamlit app:
+##### 2. Run the Streamlit app:
+
 streamlit run app.py
+
+##### 3. LINKS
 
 streamlit link : https://retail-markdown-optimation-akshi.streamlit.app/
 
 Github link : https://github.com/akshi281/RETAIL-MARKDOWN-OPTIMIZATION-
 
-Project Structure:
+### Project Structure:
 
 →  app.py - Main Streamlit application
 
@@ -55,12 +60,12 @@ Project Structure:
 
 →  README.md - Project documentation
 
-Output:
+### Output:
 
 → The model predicts optimal markdown percentages.
 
 → It helps retailers make data-driven pricing decisions.
 
-Author:
+### Author:
 
 Guduru Akshitha Reddy
